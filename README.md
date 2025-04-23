@@ -7,7 +7,7 @@ Este projeto é uma API REST desenvolvida com **Spring Boot**, utilizando **Mari
 ## 🧱 Tecnologias Utilizadas
 
 - Java 17
-- Spring Boot 3.x
+- Spring Boot 
 - Spring Data JPA
 - MariaDB
 - Lombok
@@ -30,7 +30,7 @@ No Windows:
 - Baixe o instalador em: https://mariadb.org/download/
 - Durante a instalação, defina:
   - Usuário: `root`
-  - Senha: `123456`
+  - Senha: 
 
 No Linux:
 ```bash
@@ -54,7 +54,7 @@ CREATE DATABASE produtodb;
 ```properties
 spring.datasource.url=jdbc:mariadb://localhost:3306/produtodb
 spring.datasource.username=root
-spring.datasource.password=123456
+spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
