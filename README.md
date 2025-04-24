@@ -4,7 +4,7 @@ Este projeto é uma API REST desenvolvida com **Spring Boot**, utilizando **Mari
 
 ---
 
-## 🧱 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot 
@@ -49,7 +49,7 @@ CREATE DATABASE produtodb;
 
 ---
 
-## 📦 Configurações no `application.properties`
+##  Configurações no `application.properties`
 
 ```properties
 spring.datasource.url=jdbc:mariadb://localhost:3306/produtodb
@@ -62,7 +62,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
 
 ---
 
-## ▶️ Como Rodar o Projeto
+## ▶ Como Rodar o Projeto
 
 1. Clone o repositório ou extraia o `.zip`
 2. Abra o projeto em uma IDE como IntelliJ ou VS Code
@@ -77,7 +77,7 @@ Ou diretamente pela IDE com o botão de **Run**
 
 ---
 
-## 📬 Testar os Endpoints
+##  Testar os Endpoints
 
 Use o Postman, Insomnia ou cURL. Abaixo, exemplos:
 
@@ -87,8 +87,8 @@ Use o Postman, Insomnia ou cURL. Abaixo, exemplos:
 - **POST** `/categorias`
 ```json
 {
-  "nome": "Eletrônicos",
-  "descricao": "Produtos eletrônicos em geral"
+  "nome": "Celular",
+  "descricao": "Produto eletrônico"
 }
 ```
 
@@ -101,8 +101,8 @@ Use o Postman, Insomnia ou cURL. Abaixo, exemplos:
 - **POST** `/produtos`
 ```json
 {
-  "nome": "Notebook",
-  "descricao": "Notebook gamer",
+  "nome": "Iphone 13",
+  "descricao": "Smartphone",
   "preco": 4500,
   "categoria": {
     "id": 1
@@ -115,7 +115,7 @@ Use o Postman, Insomnia ou cURL. Abaixo, exemplos:
 
 ---
 
-## ✅ Status da Implementação
+##  Status da Implementação
 
 - [x] Relacionamento entre entidades configurado corretamente com JPA
 - [x] Repositórios com `JpaRepository`
