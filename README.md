@@ -74,6 +74,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
 ```
 
 Ou diretamente pela IDE com o botão de **Run**
+A aplicação estará rodando na URL: http://localhost:8080.
 
 ---
 
